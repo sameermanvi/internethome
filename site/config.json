@@ -10,12 +10,12 @@
             "Tags": "tags.html"
         }
     ],
-    "baseURL": "http://localhost:8000",
-    "siteTitle": "Anna Site",
+    "baseURL": "https://sameermanvi.me",
+    "siteTitle": "Sameer Manvi",
     "siteScripts": null,
-    "author": "UserName",
+    "author": "Sameer Manvi",
     "themeURL": "",
-    "copyright": "Copyright 2024",
+    "copyright": "Copyright 2025",
     "collectionLayouts": {
         "collections/posts.html": "posts"
     }
