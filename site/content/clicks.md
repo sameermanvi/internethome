@@ -30,10 +30,6 @@ photos:
     caption: ""
   - url: "Downloads/IMG_2076.jpg"
     caption: ""
-  - url: "Downloads/IMG_2081.jpg"
-    caption: ""
-  - url: "Downloads/IMG_2082.jpg"
-    caption: ""
   - url: "Downloads/Tezza-1583.jpg"
     caption: ""
 ---
