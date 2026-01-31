@@ -1,0 +1,43 @@
+{{ define "all-collections" }}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Frontmatter.Title}} | {{.DeepDataMerge.LayoutConfig.SiteTitle}}</title>
+    <link rel="stylesheet" href="{{.DeepDataMerge.LayoutConfig.ThemeURL}}">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            {{range $key, $value := .DeepDataMerge.LayoutConfig.Navbar}}
+            {{range $k, $v := $value}}
+            <a href="/{{$v}}">{{$k}}</a>
+            {{end}}
+            {{end}}
+        </nav>
+
+        <header>
+            <h1>Collections</h1>
+        </header>
+
+        <main>
+            <ul>
+                {{ range $collection, $pages := .DeepDataMerge.CollectionsMap }}
+                <li>
+                    <a href="/collections/{{ $collection }}.html">{{ $collection }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </main>
+
+        <footer>
+            Copyright 2025 | Rendered with <a href="https://github.com/anna-ssg/anna" target="_blank">Anna</a>
+        </footer>
+    </div>
+</body>
+
+</html>
+{{ end }}

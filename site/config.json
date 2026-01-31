@@ -1,0 +1,22 @@
+{
+    "navbar": [
+        {
+            "Home": "index.html"
+        },
+        {
+            "Posts": "collections/posts.html"
+        },
+        {
+            "Tags": "tags.html"
+        }
+    ],
+    "baseURL": "http://localhost:8000",
+    "siteTitle": "Anna Site",
+    "siteScripts": null,
+    "author": "UserName",
+    "themeURL": "",
+    "copyright": "Copyright 2024",
+    "collectionLayouts": {
+        "collections/posts.html": "posts"
+    }
+}

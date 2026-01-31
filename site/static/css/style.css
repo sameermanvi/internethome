@@ -1,0 +1,101 @@
+:root {
+  --bg-color: #0b0f0b;
+  /* Very dark green/black to match the night aesthetic */
+  --text-color: #e6e6e6;
+  --link-color: #d4e0d9;
+  --accent-color: #4caf50;
+  /* Lighter green for visibility on dark bg */
+  /* Was British Racing Green #004225 - now used for subtle backgrounds if needed, but text needs to be lighter */
+  --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: var(--link-color);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+/* Headers */
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.site-title {
+  color: var(--accent-color);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  width: 650px;
+  /* Match adihegde.com width */
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 2rem 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+}

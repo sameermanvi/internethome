@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title></title>
+    <link href="/" rel="self"/>
+    <updated>2026-01-31T15:08:06+05:30</updated>
+    <entry>
+        <title>Clicks</title>
+        <link href="/posts/clicks.html"/>
+        <id>/clicks.html</id>
+        <updated>2024-05-20T05:30:00+05:30</updated>
+        <content type="html"><![CDATA[<h2>Photography</h2>
+<p>Gallery coming soon.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title>💻 My First Hackathon Experience — Hacknight 7.0 by ACM PESU-ECC</title>
+        <link href="/posts/first-hackathon-experience.html"/>
+        <id>/first-hackathon-experience.html</id>
+        <updated>2026-01-31T05:30:00+05:30</updated>
+        <content type="html"><![CDATA[<img src="/static/images/hacknight.jpg" alt="Hacknight 7.0 Event" style="width:100%; max-width: 800px; border-radius: 8px; margin-bottom: 20px;">
+<p>A month ago, I participated in my first-ever hackathon — <strong>Hacknight 7.0</strong>, organized by <strong>ACM PESU-ECC</strong>.<br>
+It was an incredible experience where our task was to solve issues in existing repositories and make open-source contributions.</p>
+<p>I learned a lot about:</p>
+<ul>
+<li>⚙️ <strong>Understanding real-world codebases</strong></li>
+<li>🌐 <strong>Collaborating on GitHub</strong></li>
+<li>🧩 <strong>Managing issues, pull requests, and version control</strong></li>
+<li>💡 <strong>The spirit of open source</strong> — learning, contributing, and growing together</li>
+</ul>
+<p>Hackathons like these remind me that learning doesn’t always need a win — sometimes, participation itself is the prize.</p>
+<p>Grateful to <strong>ACM PESU-ECC</strong> for organizing such an inspiring event and to all the participants who made it such a memorable experience!</p>
+]]></content>
+    </entry>
+    <entry>
+        <title>Hello World</title>
+        <link href="/posts/hello-world.html"/>
+        <id>/hello-world.html</id>
+        <updated>2024-05-20T05:30:00+05:30</updated>
+        <content type="html"><![CDATA[<p>This is the first post on the new site.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title>Sameer Manvi</title>
+        <link href="/posts/index.html"/>
+        <id>/index.html</id>
+        <updated>2024-05-20T05:30:00+05:30</updated>
+        <content type="html"><![CDATA[<p><img src="/static/images/home.jpg" alt="Toscano Wine Bar"></p>
+<figcaption style="text-align: center; color: #666; font-size: 0.9em; margin-top: -10px; margin-bottom: 20px;">A quiet evening at Toscano.</figcaption>
+<p>B.Tech in Computer Science at PES University.
+Exploring systems, cloud, and backend tech.
+Mostly learning, sometimes breaking things.</p>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/sameermanvi">LinkedIn</a></li>
+<li><a href="https://github.com/sameermanvi">GitHub</a></li>
+<li><a href="https://unsplash.com/@sameermanvi">Unsplash</a></li>
+</ul>
+]]></content>
+    </entry>
+</feed>
