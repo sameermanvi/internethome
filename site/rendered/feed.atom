@@ -2,7 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title></title>
     <link href="/" rel="self"/>
-    <updated>2026-01-31T16:01:16+05:30</updated>
+    <updated>2026-01-31T16:14:15+05:30</updated>
+    <entry>
+        <title>Sameer Manvi</title>
+        <link href="/posts/index.html"/>
+        <id>/index.html</id>
+        <updated>2024-05-20T05:30:00+05:30</updated>
+        <content type="html"><![CDATA[<p><img src="/static/images/home.jpg" alt="Toscano Wine Bar"></p>
+<figcaption style="text-align: center; color: #666; font-size: 0.9em; margin-top: -10px; margin-bottom: 20px;">A quiet evening at Toscano.</figcaption>
+<p>B.Tech in Computer Science at PES University.
+Exploring systems, cloud, and backend tech.
+Mostly learning, sometimes breaking things.</p>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/sameermanvi">LinkedIn</a></li>
+<li><a href="https://github.com/sameermanvi">GitHub</a></li>
+<li><a href="https://unsplash.com/@sameermanvi">Unsplash</a></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title>Clicks</title>
         <link href="/posts/clicks.html"/>
@@ -37,24 +55,6 @@ It was an incredible experience where our task was to solve issues in existing r
         <id>/hello-world.html</id>
         <updated>2024-05-20T05:30:00+05:30</updated>
         <content type="html"><![CDATA[<p>This is the first post on the new site.</p>
-]]></content>
-    </entry>
-    <entry>
-        <title>Sameer Manvi</title>
-        <link href="/posts/index.html"/>
-        <id>/index.html</id>
-        <updated>2024-05-20T05:30:00+05:30</updated>
-        <content type="html"><![CDATA[<p><img src="/static/images/home.jpg" alt="Toscano Wine Bar"></p>
-<figcaption style="text-align: center; color: #666; font-size: 0.9em; margin-top: -10px; margin-bottom: 20px;">A quiet evening at Toscano.</figcaption>
-<p>B.Tech in Computer Science at PES University.
-Exploring systems, cloud, and backend tech.
-Mostly learning, sometimes breaking things.</p>
-<h3>Quick Links</h3>
-<ul>
-<li><a href="https://www.linkedin.com/in/sameermanvi">LinkedIn</a></li>
-<li><a href="https://github.com/sameermanvi">GitHub</a></li>
-<li><a href="https://unsplash.com/@sameermanvi">Unsplash</a></li>
-</ul>
 ]]></content>
     </entry>
 </feed>
