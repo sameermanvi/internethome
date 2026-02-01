@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="/static/styles/feed.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+   <title>Sameer Manvi</title>
+   <link>https://sameermanvi.me/</link>
+   <description>Recent content on Sameer Manvi</description>
+   <language>en-IN</language>
+   <webMaster>Sameer Manvi</webMaster>
+   <copyright>Copyright 2025</copyright>
+   <lastBuildDate>Sun, 01 Feb 2026 14:47:28 +0530</lastBuildDate>
+   <atom:link href="https://sameermanvi.me/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💻 My First Hackathon Experience — Hacknight 7.0 by ACM PESU-ECC</title>
+      <link>https://sameermanvi.me/posts/first-hackathon-experience.html/</link>
+      <pubDate>Sat, 31 Jan 2026 05:30:00 +0530</pubDate>
+      <author>Sameer Manvi</author>
+      <guid>https://sameermanvi.me/posts/first-hackathon-experience.html</guid>
+      <description>&lt;img src=&#34;https://pub-ff68911b5f224ee3bd1fa1651218affa.r2.dev/Downloads/IMG_1207.jpeg&#34; alt=&#34;Hacknight 7.0 Event&#34; style=&#34;width:100%; max-width: 800px; border-radius: 8px; margin-bottom: 20px;&#34;&gt;&#xA;&lt;p&gt;A month ago, I participated in my first-ever hackathon — &lt;strong&gt;Hacknight 7.0&lt;/strong&gt;, organized by &lt;strong&gt;ACM PESU-ECC&lt;/strong&gt;.&lt;br&gt;&#xA;It was an incredible experience where our task was to solve issues in existing repositories and make open-source contributions.&lt;/p&gt;&#xA;&lt;p&gt;I learned a lot about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;⚙️ &lt;strong&gt;Understanding real-world codebases&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;🌐 &lt;strong&gt;Collaborating on GitHub&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;🧩 &lt;strong&gt;Managing issues, pull requests, and version control&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;💡 &lt;strong&gt;The spirit of open source&lt;/strong&gt; — learning, contributing, and growing together&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hackathons like these remind me that learning doesn’t always need a win — sometimes, participation itself is the prize.&lt;/p&gt;&#xA;&lt;p&gt;Grateful to &lt;strong&gt;ACM PESU-ECC&lt;/strong&gt; for organizing such an inspiring event and to all the participants who made it such a memorable experience!&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>The Beginning of Bench</title>
+      <link>https://sameermanvi.me/bench/first-bench-post.html/</link>
+      <pubDate>Sat, 01 Feb 2025 05:30:00 +0530</pubDate>
+      <author>Sameer Manvi</author>
+      <guid>https://sameermanvi.me/bench/first-bench-post.html</guid>
+      <description>&lt;p&gt;This is the start of my bench. I&#39;ll write about how my semester is going here.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://sameermanvi.me/posts/hello-world.html/</link>
+      <pubDate>Mon, 20 May 2024 05:30:00 +0530</pubDate>
+      <author>Sameer Manvi</author>
+      <guid>https://sameermanvi.me/posts/hello-world.html</guid>
+      <description>&lt;p&gt;This is the first post on the new site.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Clicks</title>
+      <link>https://sameermanvi.me/clicks.html/</link>
+      <pubDate>Mon, 20 May 2024 05:30:00 +0530</pubDate>
+      <author>Sameer Manvi</author>
+      <guid>https://sameermanvi.me/clicks.html</guid>
+      <description>&lt;h2 id=&#34;photography&#34;&gt;Photography&lt;/h2&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Sameer Manvi</title>
+      <link>https://sameermanvi.me/index.html/</link>
+      <pubDate>Mon, 20 May 2024 05:30:00 +0530</pubDate>
+      <author>Sameer Manvi</author>
+      <guid>https://sameermanvi.me/index.html</guid>
+      <description>&lt;figure&gt;&#xA;&lt;img src=&#34;/static/images/home.jpg&#34; alt=&#34;Toscano Wine Bar&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figcaption style=&#34;text-align: center; color: #666; font-size: 0.9em; margin-top: -10px; margin-bottom: 20px;&#34;&gt;A quiet evening at Toscano.&lt;/figcaption&gt;&#xA;&lt;p&gt;B.Tech in Computer Science at PES University.&#xA;Exploring systems, cloud, and backend tech.&#xA;Mostly learning, sometimes breaking things.&lt;/p&gt;&#xA;&lt;h3 id=&#34;quick-links&#34;&gt;Quick Links&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/sameermanvi&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/sameermanvi&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://unsplash.com/@sameermanvi&#34;&gt;Unsplash&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

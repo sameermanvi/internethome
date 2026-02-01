@@ -5,7 +5,7 @@ draft: false
 type: "post"
 ---
 
-<img src="/static/images/hacknight.jpg" alt="Hacknight 7.0 Event" style="width:100%; max-width: 800px; border-radius: 8px; margin-bottom: 20px;">
+<img src="https://pub-ff68911b5f224ee3bd1fa1651218affa.r2.dev/Downloads/IMG_1207.jpeg" alt="Hacknight 7.0 Event" style="width:100%; max-width: 800px; border-radius: 8px; margin-bottom: 20px;">
 
 A month ago, I participated in my first-ever hackathon — **Hacknight 7.0**, organized by **ACM PESU-ECC**.  
 It was an incredible experience where our task was to solve issues in existing repositories and make open-source contributions.
