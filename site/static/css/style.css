@@ -99,9 +99,11 @@ footer {
   font-size: 0.8rem;
   color: #888;
 }
+
 /* Gallery Masonry Layout */
 .gallery-container {
-  max-width: 1200px; /* Wider container for gallery */
+  max-width: 1200px;
+  /* Wider container for gallery */
 }
 
 .gallery-grid {
@@ -123,8 +125,10 @@ footer {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 0; /* Let container handle radius */
-  margin: 0; /* Override default img margin */
+  border-radius: 0;
+  /* Let container handle radius */
+  margin: 0;
+  /* Override default img margin */
 }
 
 .gallery-item:hover {
@@ -160,4 +164,36 @@ footer {
   .gallery-grid {
     column-count: 1;
   }
+}
+
+/* Bench Section Styles */
+.bench-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 3px solid var(--accent-color);
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bench-link {
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.bench-link:hover {
+  border-bottom-color: var(--accent-color);
+}
+
+.bench-caption {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
 }

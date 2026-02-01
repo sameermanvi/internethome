@@ -17,6 +17,7 @@
     "themeURL": "",
     "copyright": "Copyright 2025",
     "collectionLayouts": {
-        "collections/posts.html": "posts"
+        "collections/posts.html": "posts",
+        "collections/bench.html": "bench"
     }
 }
