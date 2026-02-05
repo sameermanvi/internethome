@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a CLI Task Manager in Go | Sameer Manvi</title>
+    <meta name="description"
+        content="How I built a terminal-native task manager in Go with CRUD operations, JSON storage, and clean UX.">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/posts.html">Posts</a>
+            <a href="/clicks.html">Clicks</a>
+            <a href="/static/cv.pdf">CV</a>
+        </nav>
+
+        <header>
+            <h1>Building a CLI Task Manager in Go</h1>
+            <div class="post-meta">
+                <span class="date">2026-02-05</span>
+
+                <a href="/tags/go.html" class="tag">#go</a>
+
+                <a href="/tags/projects.html" class="tag">#projects</a>
+
+                <a href="/tags/cli.html" class="tag">#cli</a>
+
+            </div>
+        </header>
+
+        <main>
+            <p>Today I took a break from web frameworks and built something raw and terminal-native: <strong>a CLI Task
+                    Manager in Go</strong>.</p>
+
+            <h2>Why a CLI Tool?</h2>
+            <p>I wanted something that lives entirely in my terminal—no browser tabs, no bloated Electron apps. Just
+                pure command-line efficiency with local data persistence. Sometimes the best tools are the ones that get
+                out of your way.</p>
+
+            <h2>What I Built</h2>
+            <p>Using Go 1.25, I implemented a fully functional task management system with:</p>
+            <ul>
+                <li><strong>CRUD Operations</strong>: Add, Edit, Delete, and List tasks with simple commands</li>
+                <li><strong>JSON Storage</strong>: A generic storage layer using <code>encoding/json</code> for
+                    persistent local data</li>
+                <li><strong>Clean UX</strong>: Beautiful table rendering powered by the <code>aquasecurity/table</code>
+                    package</li>
+            </ul>
+
+            <h2>The Interesting Bits</h2>
+            <p>The most challenging part was parsing command flags for editing tasks. I wanted a clean syntax like
+                <code>gotodo edit 1:Buy groceries</code>, where the ID and new content are separated by a colon.</p>
+            <p>The solution? <code>strings.SplitN</code> to manually parse the input and split on the first colon only.
+                It's simple but effective—exactly what CLI tools should be.</p>
+
+            <pre><code class="language-go">// Parse input like "1:new task title"
+parts := strings.SplitN(input, ":", 2)
+id := parts[0]
+newTitle := parts[1]</code></pre>
+
+            <h2>Tech Stack</h2>
+            <ul>
+                <li><strong>Go 1.25</strong> for performance and simplicity</li>
+                <li><strong>encoding/json</strong> for data persistence</li>
+                <li><strong>aquasecurity/table</strong> for terminal UI</li>
+            </ul>
+
+            <h2>What's Next?</h2>
+            <p>I'm thinking about adding due dates, priority levels, and maybe even categories. But for now, it does
+                exactly what I need—nothing more, nothing less.</p>
+            <p>Check out the source code on <a href="https://github.com/sameermanvi/gotodo" target="_blank">GitHub</a>!
+            </p>
+
+        </main>
+
+        <footer>
+            Copyright 2025 | Rendered with <a href="https://github.com/anna-ssg/anna" target="_blank">Anna</a>
+        </footer>
+    </div>
+</body>
+
+</html>
