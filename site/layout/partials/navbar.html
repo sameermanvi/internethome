@@ -1,7 +1,0 @@
-<nav>
-    {{range $key, $value := .DeepDataMerge.LayoutConfig.Navbar}}
-    {{range $k, $v := $value}}
-    <a href="/{{$v}}">{{$k}}</a>
-    {{end}}
-    {{end}}
-</nav>

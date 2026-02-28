@@ -2,12 +2,6 @@
     "navbar": [
         {
             "Home": "index.html"
-        },
-        {
-            "Posts": "collections/posts.html"
-        },
-        {
-            "Tags": "tags.html"
         }
     ],
     "baseURL": "https://sameermanvi.me",
@@ -15,9 +9,5 @@
     "siteScripts": null,
     "author": "Sameer Manvi",
     "themeURL": "",
-    "copyright": "Copyright 2025",
-    "collectionLayouts": {
-        "collections/posts.html": "posts",
-        "collections/bench.html": "bench"
-    }
+    "copyright": "Copyright 2025"
 }
