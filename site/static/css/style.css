@@ -1,199 +1,222 @@
-:root {
-  --bg-color: #0b0f0b;
-  /* Very dark green/black to match the night aesthetic */
-  --text-color: #e6e6e6;
-  --link-color: #d4e0d9;
-  --accent-color: #4caf50;
-  /* Lighter green for visibility on dark bg */
-  /* Was British Racing Green #004225 - now used for subtle backgrounds if needed, but text needs to be lighter */
-  --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: var(--font-main);
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    font-family: "Montserrat", serif;
+    line-height: 1.6;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  width: 100%;
+h1 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 3rem;
 }
 
-/* Navbar */
-nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1rem 0;
-  margin-bottom: 2rem;
+h2 {
+    margin: 1rem;
 }
 
-nav a {
-  color: var(--link-color);
-  text-decoration: none;
-  margin-left: 1.5rem;
-  font-size: 0.9rem;
-  opacity: 0.7;
-  transition: opacity 0.2s;
+section {
+    padding: 2rem;
+    text-align: center;
 }
 
-nav a:hover {
-  opacity: 1;
+/* Header section */
+
+header {
+    background: #fff;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
 }
 
-/* Headers */
-h1,
-h2,
-h3 {
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
-.site-title {
-  color: var(--accent-color);
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+header nav ul li {
+    margin: 0 15px;
 }
 
-/* Images */
-img {
-  max-width: 100%;
-  width: 650px;
-  /* Match adihegde.com width */
-  height: auto;
-  border-radius: 8px;
-  display: block;
-  margin: 2rem 0;
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-figure {
-  margin: 0;
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
-figcaption {
-  color: #aaa;
-  font-size: 0.9rem;
-  text-align: center;
-  margin-top: 0.5rem;
+.social-buttons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Links */
-a {
-  color: var(--link-color);
+.social-buttons a:hover {
+    background-color: #777;
+    transform: scale(1.1);
 }
 
-/* Footer */
+#about {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Skills section */
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.skills-list li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    transition: transform 0.3s;
+    width: 5.5rem;
+    text-align: center;
+}
+
+.skills-list li img {
+    height: 3rem;
+}
+
+.skills-list li:hover {
+    transform: scale(1.1);
+}
+
+.skills-list li p {
+    font-size: 0.8rem;
+}
+
+/* Project section */
+
+#projects .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-image {
+    flex: 1;
+    margin: .5rem;
+    max-width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+}
+
+.project-description {
+    flex: 1;
+    text-align: left;
+    /* Ensure the content inside is left aligned */
+    margin: 0.5rem;
+    /* Add margin to the project description */
+}
+
+@media (max-width: 950px) {
+    .project {
+        flex-direction: column;
+        /* Change to column layout on smaller screens */
+    }
+
+    .project-image {
+        min-width: 100%;
+        margin: 0;
+    }
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.project-header h3 {
+    font-size: 1.5rem;
+}
+
+.project-links a {
+    color: #333;
+    font-size: 1.5rem;
+    /* Increase the size of the icons */
+    margin: 0 0.5rem;
+    /* Add some spacing between icons */
+    transition: color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    color: #777;
+    /* Change the color on hover */
+    transform: scale(2);
+    /* Slightly increase the size on hover */
+}
+
+.tech-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tech-pill i {
+    margin-right: .25rem;
+    margin-left: .25rem;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+    margin: .5rem 0;
+}
+
+
+
 footer {
-  margin-top: auto;
-  padding: 2rem 0;
-  text-align: center;
-  font-size: 0.8rem;
-  color: #888;
-}
-
-/* Gallery Masonry Layout */
-.gallery-container {
-  max-width: 1200px;
-  /* Wider container for gallery */
-}
-
-.gallery-grid {
-  column-count: 3;
-  column-gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.gallery-item {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
-  overflow: hidden;
-  border-radius: 8px;
-  transition: transform 0.3s ease, filter 0.3s ease;
-  cursor: pointer;
-}
-
-.gallery-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 0;
-  /* Let container handle radius */
-  margin: 0;
-  /* Override default img margin */
-}
-
-.gallery-item:hover {
-  transform: scale(1.02);
-  filter: brightness(1.1);
-}
-
-.gallery-item .caption {
-  padding: 8px;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  font-size: 0.85rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.gallery-item:hover .caption {
-  opacity: 1;
-}
-
-/* Responsive Columns */
-@media (max-width: 900px) {
-  .gallery-grid {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 600px) {
-  .gallery-grid {
-    column-count: 1;
-  }
-}
-
-/* Bench Section Styles */
-.bench-section {
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border-left: 3px solid var(--accent-color);
-  background-color: rgba(255, 255, 255, 0.03);
-  border-radius: 0 8px 8px 0;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.bench-link {
-  font-family: monospace;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: var(--accent-color);
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.2s;
-}
-
-.bench-link:hover {
-  border-bottom-color: var(--accent-color);
-}
-
-.bench-caption {
-  font-size: 0.9rem;
-  color: #888;
-  font-style: italic;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
