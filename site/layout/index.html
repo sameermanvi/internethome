@@ -1,11 +1,12 @@
 {{ define "index" }}
+{{$PageData := index .DeepDataMerge.Templates .PageURL}}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{.Frontmatter.Title}} | Sameer Manvi</title>
+    <title>{{$PageData.Frontmatter.Title}} | Sameer Manvi</title>
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 
@@ -17,11 +18,11 @@
         </nav>
 
         <header>
-            <h1 class="site-title">{{.Frontmatter.Title}}</h1>
+            <h1 class="site-title">{{$PageData.Frontmatter.Title}}</h1>
         </header>
 
         <main>
-            {{.Body}}
+            {{$PageData.Body}}
         </main>
 
         <footer>

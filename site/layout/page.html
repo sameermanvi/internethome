@@ -1,11 +1,12 @@
 {{ define "page" }}
+{{$PageData := index .DeepDataMerge.Templates .PageURL}}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{.Frontmatter.Title}} | Sameer Manvi</title>
+    <title>{{$PageData.Frontmatter.Title}} | Sameer Manvi</title>
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 
@@ -13,17 +14,15 @@
     <div class="container">
         <nav>
             <a href="/index.html">Home</a>
-            <a href="/posts.html">Posts</a>
-            <a href="/clicks.html">Clicks</a>
-            <a href="/static/cv.pdf">CV</a>
+            <a href="/static/cv.pdf" target="_blank">CV</a>
         </nav>
 
         <header>
-            <h1>{{.Frontmatter.Title}}</h1>
+            <h1>{{$PageData.Frontmatter.Title}}</h1>
         </header>
 
         <main>
-            {{.Body}}
+            {{$PageData.Body}}
         </main>
 
         <footer>

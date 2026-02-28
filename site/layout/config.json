@@ -1,0 +1,13 @@
+{
+    "navbar": [
+        {
+            "Home": "index.html"
+        }
+    ],
+    "baseURL": "https://sameermanvi.me",
+    "siteTitle": "Sameer Manvi",
+    "siteScripts": null,
+    "author": "Sameer Manvi",
+    "themeURL": "",
+    "copyright": "Copyright 2025"
+}
