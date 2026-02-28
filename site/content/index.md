@@ -63,12 +63,9 @@ draft: false
 <div class="project-list">
 
 <div class="project"> <!-- GoToDo -->
-<div class="project-image">
-<img src="/static/images/home.jpg" alt="GoToDo Image">
-</div>
-<div class="project-description">
+<div class="project-description" style="max-width: 100%; flex: 1 1 100%;">
 <div class="project-header">
-<h3>GoToDo - CLI Task Manager</h3>
+<h3>gotodo</h3>
 <div class="project-links">
 <a href="https://github.com/sameermanvi/gotodo" target="_blank" class="project-link" aria-label="GitHub link">
 <i class="fa-brands fa-github"></i>
@@ -76,13 +73,51 @@ draft: false
 </div>
 </div>
 <div class="project-technologies">
-<span class="tech-pill js"></span>
+<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c;"><i class="fa-brands fa-golang"></i> Go</span>
 </div>
 <hr>
 <p>
-A fast, lightweight Command Line Interface (CLI) application for managing tasks, built entirely in Go. 
-It uses a SQLite database to persistently store your to-dos, ensuring your tasks are always saved even after you close the terminal. 
-Features include adding, listing, completing, and deleting tasks, as well as clearing all tasks at once.
+A simple, persistent Command Line Interface (CLI) task manager built with Go.
+</p>
+</div>
+</div>
+
+<div class="project"> <!-- Anna -->
+<div class="project-description" style="max-width: 100%; flex: 1 1 100%;">
+<div class="project-header">
+<h3>anna</h3>
+<div class="project-links">
+<a href="https://github.com/sameermanvi/anna" target="_blank" class="project-link" aria-label="GitHub link">
+<i class="fa-brands fa-github"></i>
+</a>
+</div>
+</div>
+<div class="project-technologies">
+<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c;"><i class="fa-brands fa-golang"></i> Go</span>
+</div>
+<hr>
+<p>
+A lightning-fast static site generator written in Go.
+</p>
+</div>
+</div>
+
+<div class="project"> <!-- Its Lying -->
+<div class="project-description" style="max-width: 100%; flex: 1 1 100%;">
+<div class="project-header">
+<h3>its-lying</h3>
+<div class="project-links">
+<a href="https://github.com/sameermanvi/its-lying" target="_blank" class="project-link" aria-label="GitHub link">
+<i class="fa-brands fa-github"></i>
+</a>
+</div>
+</div>
+<div class="project-technologies">
+<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c;"><i class="fa-brands fa-golang"></i> Go</span>
+</div>
+<hr>
+<p>
+A personal project developed in Go.
 </p>
 </div>
 </div>
