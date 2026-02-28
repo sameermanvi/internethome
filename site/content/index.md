@@ -27,10 +27,6 @@ draft: false
         <i class="fa-solid fa-c fa-3x"></i>
         <p>C / C++</p>
       </li>
-      <li>
-        <i class="fa-brands fa-js fa-3x"></i>
-        <p>JavaScript</p>
-      </li>
     </ul>
   </div>
 
@@ -42,16 +38,8 @@ draft: false
         <p>Git</p>
       </li>
       <li>
-        <i class="fa-brands fa-docker fa-3x"></i>
-        <p>Docker</p>
-      </li>
-      <li>
         <i class="fa-brands fa-linux fa-3x"></i>
         <p>Linux</p>
-      </li>
-      <li>
-        <i class="fa-brands fa-aws fa-3x"></i>
-        <p>AWS</p>
       </li>
     </ul>
   </div>
@@ -73,7 +61,7 @@ draft: false
 </div>
 </div>
 <div class="project-technologies">
-<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c;"><i class="fa-brands fa-golang"></i> Go</span>
+<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c; font-size: 12px; font-weight: bold; padding: 2px 8px; border-radius: 5px; display: inline-block;">Go</span>
 </div>
 <hr>
 <p>
@@ -93,7 +81,7 @@ A simple, persistent Command Line Interface (CLI) task manager built with Go.
 </div>
 </div>
 <div class="project-technologies">
-<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c;"><i class="fa-brands fa-golang"></i> Go</span>
+<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c; font-size: 12px; font-weight: bold; padding: 2px 8px; border-radius: 5px; display: inline-block;">Go</span>
 </div>
 <hr>
 <p>
@@ -113,7 +101,7 @@ A lightning-fast static site generator written in Go.
 </div>
 </div>
 <div class="project-technologies">
-<span class="tech-pill js"><i class="fa-brands fa-js"></i> JavaScript</span>
+<span style="background-color: #fff4c2; color: #e5c700; font-size: 12px; font-weight: bold; padding: 2px 8px; border-radius: 5px; display: inline-block;">JavaScript</span>
 </div>
 <hr>
 <p>
