@@ -102,22 +102,22 @@ A lightning-fast static site generator written in Go.
 </div>
 </div>
 
-<div class="project"> <!-- Its Lying -->
+<div class="project"> <!-- PhishShield -->
 <div class="project-description" style="max-width: 100%; flex: 1 1 100%;">
 <div class="project-header">
-<h3>its-lying</h3>
+<h3>PhishShield</h3>
 <div class="project-links">
-<a href="https://github.com/sameermanvi/its-lying" target="_blank" class="project-link" aria-label="GitHub link">
+<a href="https://github.com/sameermanvi/PhishShield" target="_blank" class="project-link" aria-label="GitHub link">
 <i class="fa-brands fa-github"></i>
 </a>
 </div>
 </div>
 <div class="project-technologies">
-<span class="tech-pill python" style="background-color: #cce4f6; color: #00599c;"><i class="fa-brands fa-golang"></i> Go</span>
+<span class="tech-pill js"><i class="fa-brands fa-js"></i> JavaScript</span>
 </div>
 <hr>
 <p>
-A personal project developed in Go.
+Lightweight "phishing-email" detection Chrome extension.
 </p>
 </div>
 </div>
