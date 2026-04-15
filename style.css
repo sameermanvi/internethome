@@ -88,3 +88,35 @@ a:hover {
 @media (min-width: 561px) {
 	html { font-size: 16px; }
 }
+
+
+/*Proof of Work Styles*/
+.timeline-container {
+    margin-top: 2rem;
+}
+.timeline-container h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--muted-text);
+    padding-bottom: 0.5rem;
+}
+.event-list {
+    list-style-type: none;
+    padding: 0;
+}
+.event-list li {
+    margin-bottom: 2rem;
+    font-size: 1.1em;
+}
+.event-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: block;
+    border: 1px solid var(--muted-text);
+}
+.back-link {
+    margin-bottom: 2rem;
+    display: inline-block;
+}
