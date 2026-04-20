@@ -1,0 +1,31 @@
+{{ define "collection-subpage" }}
+{{ $CollectionSet := index .DeepDataMerge.CollectionsMap .PageURL }}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Collection / Sameer Manvi</title>
+		<link rel="stylesheet" href="../style.css">
+	</head>
+	<body>
+		<header>
+			<img class="pfp" src="../images.jpeg" alt="pfp">
+			<div class="name">
+				<h3>Sameer Manvi</h3>
+				<span>@sameermanvi</span>
+			</div>
+		</header>
+		<main>
+			<a href="../index.html" class="back-link">← Back to Home</a>
+			<article>
+				{{ range $CollectionSet }}<p><a href="../{{ .CompleteURL }}">{{ .Frontmatter.Title }}</a></p>{{ end }}
+			</article>
+		</main>
+		<footer>
+			<span>&#169; 2026 Sameer Manvi</span>
+			<a href="https://github.com/sameermanvi/internethome">website source</a>
+		</footer>
+	</body>
+</html>
+{{ end }}
