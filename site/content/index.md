@@ -24,6 +24,6 @@ layout: page
 </article>
 </main>
 <footer>
-<span>&#169; 2025 Sameer Manvi</span>
+<span>&#169; 2025 Sameer Manvi<br>rendered using <a href="https://github.com/anna-ssg/anna">Anna</a></span>
 <a href="https://github.com/sameermanvi/internethome">website source</a>
 </footer>
