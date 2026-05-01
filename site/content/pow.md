@@ -15,6 +15,7 @@ layout: page
 <main>
 <a href="index.html" class="back-link">← Back to Home</a>
 
+<p><em>I value proof of work over certifications and courses.</em></p>
 <div class="timeline-container">
 
 <h2>2026</h2>
