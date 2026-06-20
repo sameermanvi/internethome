@@ -22,7 +22,7 @@ layout: page
 <ul class="event-list">
 <li>
 <strong>April:</strong> Secured 7th place in the <a href="https://jois-code.github.io/sudo-rm-web/" target="_blank">sudo rm ctf</a> conducted by the CCNS dept.
-<img src="https://images.sameermanvi.me/CTFSudorm.jpg" alt="sudo$rm Cyber CTF" class="event-image">
+<img src="https://images.sameermanvi.me/CTFSudo$rm.jpg" alt="sudo$rm Cyber CTF" class="event-image">
 </li>
 </ul>
 
