@@ -22,7 +22,7 @@ layout: page
 <ul class="event-list">
 <li>
 <strong>April:</strong> Secured 7th place in the <a href="https://jois-code.github.io/sudo-rm-web/" target="_blank">sudo rm ctf</a> conducted by the CCNS dept.
-<img src="https://pub-4e934cd3110a48ff869c50be2b06fcdf.r2.dev/CTFSudo$rm.jpg" alt="sudo$rm Cyber CTF" class="event-image">
+<img src="https://images.sameermanvi.me/CTFSudorm.jpg" alt="sudo$rm Cyber CTF" class="event-image">
 </li>
 </ul>
 
@@ -33,7 +33,7 @@ layout: page
 </li>
 <li>
 <strong>October:</strong> Participated in ACM PESU <a href="https://hacknight7.vercel.app/" target="_blank">hacknight7.0</a>.
-<img src="https://pub-4e934cd3110a48ff869c50be2b06fcdf.r2.dev/acmHacknight7.jpg" alt="ACM Hacknight" class="event-image">
+<img src="https://images.sameermanvi.me/acmHacknight7.jpg" alt="ACM Hacknight" class="event-image">
 </li>
 </ul>
 
