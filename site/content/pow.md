@@ -29,7 +29,8 @@ layout: page
 <h2>2025</h2>
 <ul class="event-list">
 <li>
-<strong>November:</strong> Built <a href="https://github.com/sameermanvi/PhishShield" target="_blank">phish shield</a> (Python mini project for 1st sem).
+<strong>November:</strong> Built <a href="https://github.com/sameermanvi/PhishShield" target="_blank">phish shield</a> (Python project for 1st sem).
+Developed a real-time browser extension that communicates with a Python backend to analyze and flag malicious phishing URLs.
 </li>
 <li>
 <strong>October:</strong> Participated in ACM PESU <a href="https://hacknight7.vercel.app/" target="_blank">hacknight7.0</a>.

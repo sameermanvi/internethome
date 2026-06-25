@@ -14,10 +14,14 @@ layout: page
 <main>
 <article>
 <h1>Hi there!</h1>
-<p>B.Tech in Computer Science at PES University. Mostly learning, sometimes breaking things.</p>
+<p>B.Tech in Computer Science at PES University. 
+<br>Figuring out how machine learning and systems work under the hood.</br></p>
+<h3>Currently focused on:</h3>
+<p> Building a core mathematical foundation in statistics for machine learning. </p>
+
 <p>Find me on <a href="https://github.com/sameermanvi">github</a>,
 <a href="https://linkedin.com/in/sameermanvi">linkedin</a>,
-<a href="https://unsplash.com/@sameermanvi">unsplash</a>.</p>
+<a href="https://leetcode.com/u/sameermanvi/">leetcode</a>.</p>
 
 <p><a href="./cv.pdf" target="_blank">📄 View my CV</a></p>
 <p><a href="./pow.html">Proof of Work</a></p>
